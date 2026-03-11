@@ -70,42 +70,16 @@ Three machine learning models were trained and compared:
 
 Logistic Regression was used as a **baseline model** to understand the initial performance.
 
-Advantages:
-
-* Simple and fast
-* Easy to interpret
-
-However, it cannot capture complex patterns in sensor data.
-
----
 
 ### 2. Random Forest
 
 Random Forest is an ensemble learning algorithm that combines multiple decision trees.
 
-Advantages:
-
-* Handles nonlinear relationships
-* Reduces overfitting
-* Works well with structured datasets
-
-Hyperparameters were optimized using **RandomizedSearchCV**.
-
----
 
 ### 3. XGBoost (Best Performing Model)
 
 XGBoost is a gradient boosting algorithm that improves prediction accuracy by learning from previous errors.
 
-Advantages:
-
-* Very high accuracy
-* Handles complex relationships
-* Strong performance on structured datasets
-
-After comparing all models, **XGBoost achieved the highest accuracy and best F1 score**, so it was selected as the **final production model**.
-
----
 
 # Model Performance Comparison
 
@@ -170,7 +144,4 @@ The saved model can be integrated into:
 
 FactoryGuard AI demonstrates how machine learning can be used in industrial environments to build predictive maintenance systems. By predicting machine failures early, industries can improve efficiency and reduce operational risks.
 
----
 
-**Author:** Grecy Patel
-Machine Learning Project
